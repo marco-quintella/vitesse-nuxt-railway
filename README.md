@@ -11,6 +11,8 @@
 <a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
 <br><br>
 <a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
+<br><br>
+<a href="https://railway.app/template/wWYXbc?referralCode=2Sbs5r"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
 </p>
 
 ## Features
