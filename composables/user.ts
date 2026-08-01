@@ -5,11 +5,10 @@ export const useUserStore = defineStore('user', () => {
    * Current named of the user.
    */
   const savedName = ref('')
-  const previousNames = ref(new Set<string>())
+  const previousNames = ref<Set<string>>(new Set())
 
   const usedNames = computed(() => Array.from(previousNames.value))
-  const otherNames = computed(() => usedNames.value.filter(name => name !== savedName.value))
-
+  const otherNames = computed(() => usedNames.value.filter((name: string) => name !== savedName.value))
   /**
    * Changes the current name of the user and saves the one that was used
    * before.
