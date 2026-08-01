@@ -1,43 +1,49 @@
+---
+title: Nuxt 3 Starter (Vitesse)
+description: Nuxt 3 starter with SSR, UnoCSS, Pinia and PWA — deploy in one click on Railway. TypeScript, auto-imports, file-based routing.
+tags:
+  - Node
+  - Nuxt 3
+  - Vue 3
+  - TypeScript
+  - UnoCSS
+  - PWA
+  - Pinia
+---
+
 <p align="center">
 <img src="https://user-images.githubusercontent.com/11247099/140462375-7b7ac4db-35b7-453c-8a05-13d8d20282c4.png" width="600"/>
 </p>
 
 <h2 align="center">
 <a href="https://github.com/antfu/vitesse">Vitesse</a> for Nuxt 3
-</h2><br>
+</h2>
 
-<p align="center">
-<br>
-<a href="https://vitesse-nuxt3.netlify.app/">🖥 Online Preview</a>
-<br><br>
-<a href="https://stackblitz.com/github/antfu/vitesse-nuxt3"><img src="https://developer.stackblitz.com/img/open_in_stackblitz.svg" alt=""></a>
-<br><br>
-<a href="https://railway.app/template/wWYXbc?referralCode=2Sbs5r"><img src="https://railway.app/button.svg" alt="Deploy on Railway"></a>
-</p>
+# Nuxt 3 Starter (Vitesse)
 
-## Features
+**Vitesse for Nuxt 3** — a full-featured Nuxt 3 starter with SSR, file-based routing, auto-imports, UnoCSS, Pinia and PWA support. Deploys on Railway in one click.
 
-- 💚 [Nuxt 3](https://nuxt.com/) - SSR, ESR, File-based routing, components auto importing, modules, etc.
+## ✨ Why use this template?
 
-- ⚡️ Vite - Instant HMR.
+- 💚 **Nuxt 3** — SSR, file-based routing, components auto-importing, modules and more
+- ⚡️ **Vite** — instant HMR in development
+- 🎨 **UnoCSS** — the instant on-demand atomic CSS engine
+- 😃 **Pure CSS icons** — from any icon set, powered by UnoCSS
+- 🍍 **Pinia** — intuitive, type-safe state management ([example](./composables/user.ts))
+- 📑 **Layout system** — flexible page layouts
+- 📥 **Auto-imports** — Composition API, VueUse and your composables, no imports needed
+- 📲 **PWA** — offline support with auto-update behavior
+- 🦾 **TypeScript** — of course
 
-- 🎨 [UnoCSS](https://github.com/unocss/unocss) - The instant on-demand atomic CSS engine.
+## Deploy and Host
 
-- 😃 Use icons from any icon sets in Pure CSS, powered by [UnoCSS](https://github.com/unocss/unocss).
+[![Deploy on Railway](https://railway.app/button.svg)](https://railway.app/template/wWYXbc?referralCode=2Sbs5r)
 
-- 🔥 The `<script setup>` syntax.
+Click the button above to deploy this template on [Railway](https://railway.com). Railway builds the Nuxt app, starts the Nitro server, and gives you a public URL in about a minute.
 
-- 🍍 [State Management via Pinia](https://github.com/vuejs/pinia), see [./composables/user.ts](./composables/user.ts).
+### Online Preview
 
-- 📑 [Layout system](./layouts).
-
-- 📥 APIs auto importing - for Composition API, VueUse and custom composables.
-
-- 🏎 Zero-config cloud functions and deploy.
-
-- 🦾 TypeScript, of course.
-
-- 📲 [PWA](https://github.com/vite-pwa/nuxt) with offline support and auto-update behavior.
+See it running: [vitesse-nuxt3.netlify.app](https://vitesse-nuxt3.netlify.app/) · [Open in StackBlitz](https://stackblitz.com/github/antfu/vitesse-nuxt3)
 
 ## Plugins
 
